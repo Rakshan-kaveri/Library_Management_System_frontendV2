@@ -49,7 +49,8 @@ export default function Register() {
     <div className="auth-wrapper">
       <div className="auth-box">
         <div className="auth-logo">
-          <span className="auth-logo-icon">📚</span>
+           <img src="/logo.png" alt="Library Logo" className="auth-logo-icon" />
+          {/*<span className="auth-logo-icon">📚</span>*/}
           <h2>Create Account</h2>
           <p>Join the library system</p>
         </div>
